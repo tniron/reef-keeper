@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Reef Keeper — demo</title>
 <link rel="stylesheet" href="../assets/game.css">
+<link rel="stylesheet" href="surprises.css">
 <style>
 	body { margin: 0; padding: 24px 16px 60px; background: #eef3f7; font: 15px/1.5 system-ui, -apple-system, sans-serif; color: #0f2438; }
 	.page { max-width: 980px; margin: 0 auto; }
@@ -31,6 +32,7 @@
 	<button data-h="120">+5 gün</button>
 	<button id="member"></button>
 	<a id="lang" href="#"></a>
+	<button id="visit">Sürpriz ziyaretçi</button>
 	<button id="reset">Sıfırla</button>
 	<span class="clock" id="clock"></span>
 </div>
@@ -65,6 +67,7 @@
 		var l = document.getElementById('lang');
 		l.textContent = lang === 'tr' ? 'English' : 'Türkçe';
 		l.href = '?lang=' + (lang === 'tr' ? 'en' : 'tr');
+		document.getElementById('visit').addEventListener('click', function () { ReefSurprises.visit(); });
 		document.getElementById('reset').addEventListener('click', function () { D.reset(); reload(); });
 		var clock = document.getElementById('clock');
 		var tick = function () { clock.textContent = 'Oyun saati: ' + new Date(D.clock()).toLocaleString(); };
@@ -72,5 +75,6 @@
 		setInterval(tick, 1000);
 	})();
 </script>
+<script src="surprises.js"></script>
 </body>
 </html>

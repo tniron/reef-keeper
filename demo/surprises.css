@@ -1,0 +1,29 @@
+/* Reef Keeper — demo surprises (see surprises.js). */
+.rks-badge-btn { display: inline-flex; align-items: center; gap: 4px; border: 1px solid var(--rk-line); background: var(--rk-card); border-radius: 99px; padding: 3px 10px 3px 6px; font: inherit; font-size: 13px; color: var(--rk-muted); cursor: pointer; font-variant-numeric: tabular-nums; }
+.rks-badge-btn b { color: var(--rk-ink); font-size: 14px; }
+.rks-badge-btn:hover { border-color: var(--rk-coin); }
+.rks-pop { animation: rks-pop .7s cubic-bezier(.2, 1.6, .4, 1); }
+@keyframes rks-pop { 0% { transform: scale(1); } 40% { transform: scale(1.35) rotate(-6deg); } 100% { transform: scale(1); } }
+
+.rks-mute { position: absolute; left: 10px; bottom: 10px; width: 34px; height: 34px; display: grid; place-items: center; border: 0; border-radius: 50%; background: rgba(10, 30, 50, .45); color: #fff; cursor: pointer; padding: 0; opacity: .75; transition: opacity .2s, background .2s; }
+.rks-mute:hover, .rks-mute:focus-visible { opacity: 1; background: rgba(10, 30, 50, .7); }
+.rks-mute svg { width: 18px; height: 18px; }
+
+.rks-badge-toast { display: flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #3b2a6e, #0a6fb3); padding: 6px 14px 6px 8px; box-shadow: 0 4px 14px rgba(0, 0, 0, .25); animation: rks-slide .5s cubic-bezier(.2, 1.4, .4, 1); }
+.rks-badge-toast span { display: flex; flex-direction: column; line-height: 1.2; }
+.rks-badge-toast small { font-size: 11px; font-weight: 600; opacity: .8; text-transform: uppercase; letter-spacing: .04em; }
+@keyframes rks-slide { from { transform: translateX(-30px) scale(.8); opacity: 0; } }
+
+.rks-badge-grid { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+.rks-badge-grid li { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px; padding: 12px 8px; border: 1px solid var(--rk-line); border-radius: 12px; background: var(--rk-card); }
+.rks-badge-grid li b { font-size: 14px; }
+.rks-badge-grid li .rk-muted { font-size: 12px; line-height: 1.35; }
+.rks-badge-grid .rks-got { border-color: #f4d27a; background: linear-gradient(180deg, #fffaf0, #fff); }
+.rks-badge-grid .rks-locked .rks-medal { opacity: .7; filter: grayscale(1); }
+@media (max-width: 480px) {
+	.rks-badge-grid { grid-template-columns: repeat(2, 1fr); }
+	.rks-badge-btn { padding: 2px 8px 2px 4px; }
+}
+@media (prefers-reduced-motion: reduce) {
+	.rks-pop, .rks-badge-toast { animation: none; }
+}
