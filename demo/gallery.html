@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reef Keeper — tür galerisi</title>
+<style>
+	:root { --bg: #eef3f7; --card: #fff; --ink: #0f2438; --muted: #5b6f82; --line: #d8e2ea; --water: #0e4a86; }
+	body { margin: 0; padding: 24px 16px 60px; background: var(--bg); font: 15px/1.5 system-ui, -apple-system, sans-serif; color: var(--ink); }
+	.page { max-width: 1100px; margin: 0 auto; }
+	h1 { margin: 0 0 4px; font-size: 22px; }
+	p.note { margin: 0 0 18px; color: var(--muted); font-size: 14px; }
+	a { color: #0a6fb3; }
+	.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+	.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+	.pair { display: grid; grid-template-columns: 1fr 1fr; }
+	.pair img, .pair canvas { width: 100%; aspect-ratio: 1; display: block; object-fit: cover; }
+	.pair canvas { background: linear-gradient(#5fb7ec, var(--water)); }
+	.meta { padding: 8px 12px 10px; }
+	.meta b { display: block; font-size: 14px; line-height: 1.3; }
+	.meta small { color: var(--muted); font-style: italic; }
+	@media (max-width: 480px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="page">
+	<h1>Tür galerisi</h1>
+	<p class="note">Solda reefnetwork.com ansiklopedisindeki fotoğraf, sağda oyundaki çizim (canlı, yüzüyor). <a href="index.html">← Tanka dön</a></p>
+	<div class="grid" id="grid"></div>
+</div>
+<script src="../assets/looks.js"></script>
+<script src="../assets/sprites.js"></script>
+<script src="species.js"></script>
+<script>
+(function () {
+	var S = window.ReefSprites;
+	var grid = document.getElementById('grid');
+	// ?w=500 shows bigger cards; ?only=goby filters by name.
+	var q = new URLSearchParams(location.search);
+	if (q.get('w')) grid.style.gridTemplateColumns = 'repeat(auto-fill, minmax(' + Number(q.get('w')) + 'px, 1fr))';
+	var only = (q.get('only') || '').toLowerCase();
+	var dpr = Math.min(2, window.devicePixelRatio || 1);
+	var items = window.RK_DEMO_SPECIES.filter(function (sp) {
+		return !only || sp.name.toLowerCase().indexOf(only) >= 0;
+	}).map(function (sp) {
+		var card = document.createElement('div');
+		card.className = 'card';
+		var pair = document.createElement('div');
+		pair.className = 'pair';
+		var img = document.createElement('img');
+		img.src = sp.img;
+		img.alt = sp.name;
+		img.loading = 'lazy';
+		var c = document.createElement('canvas');
+		pair.appendChild(img);
+		pair.appendChild(c);
+		card.appendChild(pair);
+		var meta = document.createElement('div');
+		meta.className = 'meta';
+		meta.innerHTML = '<b></b><small></small>';
+		meta.firstChild.textContent = sp.name;
+		meta.lastChild.textContent = sp.sci || '';
+		card.appendChild(meta);
+		grid.appendChild(card);
+		return { sp: sp, c: c, phase: S.hash(sp.sid) % 100 / 10 };
+	});
+	function frame(ts) {
+		var t = ts / 1000;
+		items.forEach(function (it) {
+			var px = it.c.clientWidth;
+			if (!px) return;
+			if (it.c.width !== Math.round(px * dpr)) { it.c.width = it.c.height = Math.round(px * dpr); }
+			var ctx = it.c.getContext('2d');
+			ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+			ctx.clearRect(0, 0, px, px);
+			var fixed = it.sp.cat !== 'fish' && S.lookFor(it.sp).shape !== 'crab' && S.lookFor(it.sp).shape !== 'snail';
+			ctx.translate(px / 2, fixed ? px * 0.85 : px / 2);
+			S.draw(ctx, it.sp, px * (fixed ? 0.65 : 0.72), t + it.phase, false);
+		});
+		requestAnimationFrame(frame);
+	}
+	requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

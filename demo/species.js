@@ -9,14 +9,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/yellowtail-blue-damselfish-chrysiptera-parasema/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/10/yellowtail-blue-damselfish-chrysiptera-parasema-1-300x300.jpg",
-			"look": {
-				"shape": "round",
-				"pattern": "split",
-				"body": "#2f6fe0",
-				"accent": "#ffd23f",
-				"fin": "#ffd23f"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/10/yellowtail-blue-damselfish-chrysiptera-parasema-1-300x300.jpg"
 		},
 		{
 			"sid": "17515",
@@ -26,14 +19,7 @@
 			"cat": "fish",
 			"care": "difficult",
 			"url": "https://reefnetwork.com/lyretail-anthias-pseudanthias-squamipinnis/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/10/lyretail-anthias-pseudanthias-squamipinnis-300x300.jpg",
-			"look": {
-				"shape": "slim",
-				"pattern": "plain",
-				"body": "#ff7a3d",
-				"accent": "#ff3d7f",
-				"fin": "#ffb04a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/10/lyretail-anthias-pseudanthias-squamipinnis-300x300.jpg"
 		},
 		{
 			"sid": "17410",
@@ -43,14 +29,7 @@
 			"cat": "fish",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/yellow-tang-zebrasoma-flavescens/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/10/yellow-tang-zebrasoma-flavescens-300x300.jpg",
-			"look": {
-				"shape": "tall",
-				"pattern": "plain",
-				"body": "#ffd21f",
-				"accent": "#ffffff",
-				"fin": "#ffc400"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/10/yellow-tang-zebrasoma-flavescens-300x300.jpg"
 		},
 		{
 			"sid": "16458",
@@ -60,14 +39,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/ocellaris-clownfish-amphiprion-ocellaris/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/10/ocellaris-clownfish-amphiprion-ocellaris-300x300.jpg",
-			"look": {
-				"shape": "round",
-				"pattern": "bands",
-				"body": "#ff7b1c",
-				"accent": "#ffffff",
-				"fin": "#ff7b1c"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/10/ocellaris-clownfish-amphiprion-ocellaris-300x300.jpg"
 		},
 		{
 			"sid": "16181",
@@ -77,14 +49,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/green-chromis-chromis-viridis/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/10/green-chromis-chromis-viridis-300x300.jpg",
-			"look": {
-				"shape": "round",
-				"pattern": "plain",
-				"body": "#7fe3c4",
-				"accent": "#b5fff0",
-				"fin": "#6fd3b6"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/10/green-chromis-chromis-viridis-300x300.jpg"
 		},
 		{
 			"sid": "15943",
@@ -94,14 +59,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/neon-goby-elacatinus-oceanops/",
-			"img": "https://reefnetwork.com/wp-content/uploads/neon-goby-elacatinus-oceanops-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "stripe",
-				"body": "#2a2d3a",
-				"accent": "#33b8ff",
-				"fin": "#2a2d3a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/neon-goby-elacatinus-oceanops-300x300.jpg"
 		},
 		{
 			"sid": "15503",
@@ -111,14 +69,7 @@
 			"cat": "coral",
 			"care": "easy",
 			"url": "https://reefnetwork.com/mushroom-coral-discosoma-sp/",
-			"img": "https://reefnetwork.com/wp-content/uploads/mushroom-coral-discosoma-sp-300x300.jpg",
-			"look": {
-				"shape": "mushroom",
-				"pattern": "plain",
-				"body": "#c0399a",
-				"accent": "#5ef2c8",
-				"fin": "#7d2a8a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/mushroom-coral-discosoma-sp-300x300.jpg"
 		},
 		{
 			"sid": "15341",
@@ -128,14 +79,7 @@
 			"cat": "coral",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/hammer-coral-fimbriaphyllia-ancora/",
-			"img": "https://reefnetwork.com/wp-content/uploads/hammer-coral-fimbriaphyllia-ancora-300x300.jpg",
-			"look": {
-				"shape": "hammer",
-				"pattern": "plain",
-				"body": "#61d6a0",
-				"accent": "#e0ff8a",
-				"fin": "#3b8a6a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/hammer-coral-fimbriaphyllia-ancora-300x300.jpg"
 		},
 		{
 			"sid": "14865",
@@ -145,14 +89,7 @@
 			"cat": "coral",
 			"care": "easy",
 			"url": "https://reefnetwork.com/neon-pineapple-tree-coral-capnella-sp/",
-			"img": "https://reefnetwork.com/wp-content/uploads/neon-pineapple-tree-coral-capnella-sp-300x300.jpg",
-			"look": {
-				"shape": "tree",
-				"pattern": "plain",
-				"body": "#f1e6c8",
-				"accent": "#9fe870",
-				"fin": "#d8c9a0"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/neon-pineapple-tree-coral-capnella-sp-300x300.jpg"
 		},
 		{
 			"sid": "14103",
@@ -162,14 +99,7 @@
 			"cat": "fish",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/citron-goby-gobiodon-citrinus/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/08/citron-goby-gobiodon-citrinus-300x300.jpg",
-			"look": {
-				"shape": "round",
-				"pattern": "stripe",
-				"body": "#ffe23a",
-				"accent": "#7ad0ff",
-				"fin": "#ffe23a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/08/citron-goby-gobiodon-citrinus-300x300.jpg"
 		},
 		{
 			"sid": "13331",
@@ -179,14 +109,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/yellow-line-goby-elacatinus-figaro/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/08/yellow-line-goby-elacatinus-figaro-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "stripe",
-				"body": "#22252f",
-				"accent": "#ffd800",
-				"fin": "#22252f"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/08/yellow-line-goby-elacatinus-figaro-300x300.jpg"
 		},
 		{
 			"sid": "11366",
@@ -196,14 +119,7 @@
 			"cat": "invert",
 			"care": "easy",
 			"url": "https://reefnetwork.com/electric-blue-hermit-crab-calcinus-elegans/",
-			"img": "https://reefnetwork.com/wp-content/uploads/electric-blue-hermit-crab-calcinus-elegans-300x300.jpg",
-			"look": {
-				"shape": "crab",
-				"pattern": "plain",
-				"body": "#1d4fd8",
-				"accent": "#ff8a1c",
-				"fin": "#111a3a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/electric-blue-hermit-crab-calcinus-elegans-300x300.jpg"
 		},
 		{
 			"sid": "9172",
@@ -213,14 +129,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/red-head-goby-elacatinus-puncticulatus/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/07/red-head-goby-elacatinus-puncticulatus-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "gradient",
-				"body": "#f2e3b0",
-				"accent": "#ff3b2f",
-				"fin": "#e8d39a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/07/red-head-goby-elacatinus-puncticulatus-300x300.jpg"
 		},
 		{
 			"sid": "9040",
@@ -230,14 +139,7 @@
 			"cat": "fish",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/tangaroa-goby-ctenogobiops-tangaroai/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/07/tangaroa-goby-ctenogobiops-tangaroai-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "spots",
-				"body": "#f3efe6",
-				"accent": "#e89a2c",
-				"fin": "#e8e0d0"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/07/tangaroa-goby-ctenogobiops-tangaroai-300x300.jpg"
 		},
 		{
 			"sid": "8651",
@@ -247,14 +149,7 @@
 			"cat": "fish",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/yellow-cardinalfish-ostorhinchus-luteus/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/07/yellow-cardinalfish-ostorhinchus-luteus-300x300.jpg",
-			"look": {
-				"shape": "round",
-				"pattern": "plain",
-				"body": "#ffe26a",
-				"accent": "#ffcd2e",
-				"fin": "#ffd84d"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/07/yellow-cardinalfish-ostorhinchus-luteus-300x300.jpg"
 		},
 		{
 			"sid": "8130",
@@ -264,14 +159,7 @@
 			"cat": "fish",
 			"care": "expert-only",
 			"url": "https://reefnetwork.com/deepwater-candy-basslet-liopropoma-carmabi/",
-			"img": "https://reefnetwork.com/wp-content/uploads/deepwater-candy-basslet-liopropoma-carmabi-300x300.jpg",
-			"look": {
-				"shape": "slim",
-				"pattern": "stripe",
-				"body": "#ff6a3a",
-				"accent": "#ffd23a",
-				"fin": "#ff4d6b"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/deepwater-candy-basslet-liopropoma-carmabi-300x300.jpg"
 		},
 		{
 			"sid": "7882",
@@ -281,14 +169,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/sharknose-goby-elacatinus-evelynae/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/05/sharknose-goby-elacatinus-evelynae-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "stripe",
-				"body": "#2b2e3a",
-				"accent": "#ffe14a",
-				"fin": "#2b2e3a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/05/sharknose-goby-elacatinus-evelynae-300x300.jpg"
 		},
 		{
 			"sid": "7775",
@@ -298,14 +179,7 @@
 			"cat": "fish",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/panamic-barnacle-blenny/",
-			"img": "https://reefnetwork.com/wp-content/uploads/panamic-barnacle-blenny-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "gradient",
-				"body": "#5a4a3a",
-				"accent": "#ffcc33",
-				"fin": "#4a3a2a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/panamic-barnacle-blenny-300x300.jpg"
 		},
 		{
 			"sid": "7679",
@@ -315,14 +189,7 @@
 			"cat": "fish",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/black-barred-convict-goby-priolepis-nocturna/",
-			"img": "https://reefnetwork.com/wp-content/uploads/black-barred-convict-goby-black-barred-convict-goby-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "bands",
-				"body": "#d99a5a",
-				"accent": "#3a2a22",
-				"fin": "#c48650"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/black-barred-convict-goby-black-barred-convict-goby-300x300.jpg"
 		},
 		{
 			"sid": "7499",
@@ -332,14 +199,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/broadstripe-goby-elacatinus-prochilos/",
-			"img": "https://reefnetwork.com/wp-content/uploads/broadstripe-goby-elacatinus-prochilos-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "stripe",
-				"body": "#2b2e3a",
-				"accent": "#4ac8ff",
-				"fin": "#2b2e3a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/broadstripe-goby-elacatinus-prochilos-300x300.jpg"
 		},
 		{
 			"sid": "7251",
@@ -349,14 +209,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/allens-damselfish-pomacentrus-alleni/",
-			"img": "https://reefnetwork.com/wp-content/uploads/allens-damselfish-pomacentrus-alleni-300x300.jpg",
-			"look": {
-				"shape": "round",
-				"pattern": "split",
-				"body": "#2d7cf0",
-				"accent": "#ffe066",
-				"fin": "#ffe066"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/allens-damselfish-pomacentrus-alleni-300x300.jpg"
 		},
 		{
 			"sid": "6944",
@@ -366,14 +219,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/speckled-damsel-pomacentrus-bankanensis/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/04/speckled-damsel-pomacentrus-bankanensis-300x300.jpg",
-			"look": {
-				"shape": "round",
-				"pattern": "spots",
-				"body": "#5a4a6a",
-				"accent": "#ff9a3a",
-				"fin": "#ffd84a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/04/speckled-damsel-pomacentrus-bankanensis-300x300.jpg"
 		},
 		{
 			"sid": "6729",
@@ -383,14 +229,7 @@
 			"cat": "fish",
 			"care": "difficult",
 			"url": "https://reefnetwork.com/pink-streaked-wrasse/",
-			"img": "https://reefnetwork.com/wp-content/uploads/pink-streaked-wrasse-300x300.jpg",
-			"look": {
-				"shape": "slim",
-				"pattern": "stripe",
-				"body": "#ff9ac8",
-				"accent": "#ffd5e8",
-				"fin": "#ff7ab0"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/pink-streaked-wrasse-300x300.jpg"
 		},
 		{
 			"sid": "6532",
@@ -400,14 +239,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/tail-spot-blenny-ecsenius-stigmatura/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/03/tail-spot-blenny-ecsenius-stigmatura-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "gradient",
-				"body": "#7a6a5a",
-				"accent": "#ffd84a",
-				"fin": "#6a5a4a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/03/tail-spot-blenny-ecsenius-stigmatura-300x300.jpg"
 		},
 		{
 			"sid": "6308",
@@ -417,14 +249,7 @@
 			"cat": "fish",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/ring-eyed-dottyback-pseudoplesiops-typus/",
-			"img": "https://reefnetwork.com/wp-content/uploads/ring-eyed-dottyback-300x300.jpg",
-			"look": {
-				"shape": "slim",
-				"pattern": "plain",
-				"body": "#ff9a2a",
-				"accent": "#ffd04a",
-				"fin": "#ff8a1a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/ring-eyed-dottyback-300x300.jpg"
 		},
 		{
 			"sid": "6157",
@@ -434,14 +259,7 @@
 			"cat": "fish",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/yellow-priolepis-goby/",
-			"img": "https://reefnetwork.com/wp-content/uploads/yellow-priolepis-goby-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "bands",
-				"body": "#ffcc3a",
-				"accent": "#c47a2a",
-				"fin": "#ffbb2a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/yellow-priolepis-goby-300x300.jpg"
 		},
 		{
 			"sid": "6036",
@@ -451,14 +269,7 @@
 			"cat": "fish",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/starry-goby-asterropteryx-semipunctatus/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/02/starry-goby-asterropteryx-semipunctatus-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "spots",
-				"body": "#5a5a6a",
-				"accent": "#6ae8ff",
-				"fin": "#4a4a5a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/02/starry-goby-asterropteryx-semipunctatus-300x300.jpg"
 		},
 		{
 			"sid": "5973",
@@ -468,14 +279,7 @@
 			"cat": "fish",
 			"care": "moderate",
 			"url": "https://reefnetwork.com/links-goby-amblygobius-linki/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/02/links-goby-amblygobius-linki-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "stripe",
-				"body": "#e8d8b8",
-				"accent": "#c46a3a",
-				"fin": "#d8c8a8"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/02/links-goby-amblygobius-linki-300x300.jpg"
 		},
 		{
 			"sid": "5862",
@@ -485,14 +289,7 @@
 			"cat": "fish",
 			"care": "difficult",
 			"url": "https://reefnetwork.com/mandarin-dragonet-synchiropus-splendidus/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/02/mandarin-dragonet-synchiropus-splendidus-300x300.jpg",
-			"look": {
-				"shape": "round",
-				"pattern": "psy",
-				"body": "#ff7a1a",
-				"accent": "#1a9aff",
-				"fin": "#2ad08a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/02/mandarin-dragonet-synchiropus-splendidus-300x300.jpg"
 		},
 		{
 			"sid": "5728",
@@ -502,14 +299,7 @@
 			"cat": "invert",
 			"care": "easy",
 			"url": "https://reefnetwork.com/turban-snail-tectus-fenestratus/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/01/turban-snail-tectus-fenestratus-300x300.jpg",
-			"look": {
-				"shape": "snail",
-				"pattern": "plain",
-				"body": "#b8a07a",
-				"accent": "#7a5a3a",
-				"fin": "#d8c8a8"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/01/turban-snail-tectus-fenestratus-300x300.jpg"
 		},
 		{
 			"sid": "5568",
@@ -519,14 +309,7 @@
 			"cat": "fish",
 			"care": "difficult",
 			"url": "https://reefnetwork.com/yasha-goby-stonogobiops-yasha/",
-			"img": "https://reefnetwork.com/wp-content/uploads/yasha-goby-stonogobiops-yasha-300x300.jpg",
-			"look": {
-				"shape": "long",
-				"pattern": "stripe",
-				"body": "#ffffff",
-				"accent": "#ff5a3a",
-				"fin": "#ffd84a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/yasha-goby-stonogobiops-yasha-300x300.jpg"
 		},
 		{
 			"sid": "5192",
@@ -536,14 +319,7 @@
 			"cat": "fish",
 			"care": "expert-only",
 			"url": "https://reefnetwork.com/rose-anthias-odontanthias-katayamai/",
-			"img": "https://reefnetwork.com/wp-content/uploads/2026/01/rose-anthias-odontanthias-katayamai-300x300.jpg",
-			"look": {
-				"shape": "slim",
-				"pattern": "gradient",
-				"body": "#ff5aa0",
-				"accent": "#ffd23a",
-				"fin": "#ff3a8a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/2026/01/rose-anthias-odontanthias-katayamai-300x300.jpg"
 		},
 		{
 			"sid": "4873",
@@ -553,14 +329,7 @@
 			"cat": "fish",
 			"care": "easy",
 			"url": "https://reefnetwork.com/azure-damselfish-chrysiptera-hemicyanea/",
-			"img": "https://reefnetwork.com/wp-content/uploads/azure-damselfish-chrysiptera-hemicyanea-300x300.jpg",
-			"look": {
-				"shape": "round",
-				"pattern": "split",
-				"body": "#1f6ae8",
-				"accent": "#ffd42a",
-				"fin": "#ffd42a"
-			}
+			"img": "https://reefnetwork.com/wp-content/uploads/azure-damselfish-chrysiptera-hemicyanea-300x300.jpg"
 		}
 	];
 	if (typeof module === 'object' && module.exports) module.exports = list;

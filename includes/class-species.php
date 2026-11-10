@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) || exit;
 
 class Reef_Keeper_Species {
 
-	const CACHE = 'reef_keeper_species_v1_';
+	const CACHE = 'reef_keeper_species_v2_';
 
 	public static function init() {
 		add_action( 'save_post_product', array( __CLASS__, 'flush' ) );
@@ -69,7 +69,6 @@ class Reef_Keeper_Species {
 
 	private static function build( $lang ) {
 		$opts    = Reef_Keeper_Settings::get();
-		$looks   = include __DIR__ . '/looks.php';
 		$default = apply_filters( 'wpml_default_language', null );
 		if ( $default ) {
 			do_action( 'wpml_switch_language', $default );
@@ -112,9 +111,6 @@ class Reef_Keeper_Species {
 				'url'  => get_permalink( $id ),
 				'img'  => (string) get_the_post_thumbnail_url( $id, 'woocommerce_thumbnail' ),
 			);
-			if ( isset( $looks[ $slug ] ) ) {
-				$item['look'] = $looks[ $slug ];
-			}
 			$list[] = $item;
 		}
 		return $list;

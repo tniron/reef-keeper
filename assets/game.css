@@ -104,6 +104,9 @@
 .rk-album { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
 .rk-card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px; background: var(--rk-card); border: 1px solid var(--rk-line); border-radius: var(--rk-radius); padding: 10px; }
 .rk-card canvas { background: linear-gradient(#e6f4fd, #cde7f7); border-radius: 10px; }
+.rk-pic { position: relative; display: block; flex: none; }
+.rk-pic img { width: 100%; height: 100%; object-fit: cover; border-radius: 10px; display: block; background: #cde7f7; }
+.rk-card .rk-pic canvas { position: absolute; right: -6px; bottom: -6px; border-radius: 50%; box-shadow: 0 0 0 2px #fff, 0 2px 6px rgba(0, 0, 0, .2); }
 .rk-card-body { display: flex; flex-direction: column; gap: 2px; align-items: center; flex: 1; }
 .rk-card-body b { line-height: 1.25; }
 .rk-locked { opacity: .6; }

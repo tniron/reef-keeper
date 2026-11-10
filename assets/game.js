@@ -647,7 +647,7 @@
 		list.forEach(function (sp) {
 			var why = E.canBuy(s, sp.sid, self.catalog);
 			var card = el('div', 'rk-card' + (why === 'tank' ? ' rk-locked' : ''));
-			card.appendChild(S.thumb(sp, 72));
+			card.appendChild(self.pic(sp, 72));
 			card.appendChild(el('div', 'rk-card-body',
 				'<b>' + esc(sp.name) + '</b>' + (sp.sci ? '<i class="rk-muted">' + esc(sp.sci) + '</i>' : '') +
 				'<span>' + self.careBadge(sp) + (s.discovered.indexOf(sp.sid) >= 0 ? ' <span class="rk-badge rk-badge-owned">' + esc(t('owned')) + '</span>' : '') + '</span>'));
@@ -668,6 +668,22 @@
 			grid.appendChild(card);
 		});
 		this.panel.appendChild(grid);
+	};
+
+	/* The encyclopedia photo with the in-game sprite in its corner; just the sprite when there's no photo. */
+	Game.prototype.pic = function (sp, px) {
+		if (!sp.img) return S.thumb(sp, px);
+		var box = el('span', 'rk-pic');
+		box.style.width = px + 'px';
+		box.style.height = px + 'px';
+		var img = el('img');
+		img.src = sp.img;
+		img.alt = '';
+		img.loading = 'lazy';
+		img.addEventListener('error', function () { box.replaceWith(S.thumb(sp, px)); });
+		box.appendChild(img);
+		box.appendChild(S.thumb(sp, Math.round(px * 0.5)));
+		return box;
 	};
 
 	Game.prototype.tankFor = function (sp) {
@@ -691,7 +707,7 @@
 		this.species.forEach(function (sp) {
 			var known = s.discovered.indexOf(sp.sid) >= 0;
 			var card = el('div', 'rk-card' + (known ? '' : ' rk-unknown'));
-			card.appendChild(S.thumb(sp, 64, !known));
+			card.appendChild(known ? self.pic(sp, 64) : S.thumb(sp, 64, true));
 			if (!known) {
 				card.appendChild(el('div', 'rk-card-body', '<b>?</b><span class="rk-muted">' + esc(t('album_unknown')) + '</span>'));
 			} else {

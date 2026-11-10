@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Reef Keeper
  * Description:       A virtual reef tank game for Reef Network. Add [reef_keeper] to a page. New species send players to their encyclopedia pages.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Reef Network
@@ -11,7 +11,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'REEF_KEEPER_VERSION', '1.0.0' );
+define( 'REEF_KEEPER_VERSION', '1.1.0' );
 define( 'REEF_KEEPER_URL', plugin_dir_url( __FILE__ ) );
 
 require_once __DIR__ . '/includes/class-engine.php';
@@ -75,7 +75,7 @@ class Reef_Keeper {
 		$done = true;
 
 		wp_enqueue_style( 'reef-keeper', REEF_KEEPER_URL . 'assets/game.css', array(), REEF_KEEPER_VERSION );
-		$last = self::enqueue( array( 'engine', 'i18n', 'sprites', 'stores', 'game', 'boot' ) );
+		$last = self::enqueue( array( 'engine', 'i18n', 'looks', 'sprites', 'stores', 'game', 'boot' ) );
 		$cfg  = self::config(
 			array(
 				'page'    => 'game',

@@ -28,7 +28,7 @@ reefnetwork.com için sanal resif akvaryumu oyunu. Oyuncular tanklarına 1-2 gü
 
 ## Teknik notlar
 
-- Türler WooCommerce ürünlerinden okunur: `saltwater-aquarium-encyclopedia` kategorisi ve `livestock_care_level` meta alanı. Siteye eklenen yeni türler oyuna otomatik gelir (önbellek 12 saat, ürün kaydedilince temizlenir). Bugünkü 33 türün renkleri elle ayarlandı. Yeni türler isimden üretilen bir renk paleti alır. Bu renkler `includes/looks.php` dosyasından değiştirilebilir.
+- Türler WooCommerce ürünlerinden okunur: `saltwater-aquarium-encyclopedia` kategorisi ve `livestock_care_level` meta alanı. Siteye eklenen yeni türler oyuna otomatik gelir (önbellek 12 saat, ürün kaydedilince temizlenir). Bugünkü 33 türün çizimi ansiklopedi fotoğraflarına bakılarak elle ayarlandı (gövde biçimi, yüzgeçler, şerit ve benekler). Yeni türler isimden üretilen bir görünüm alır. Görünümler `assets/looks.js` dosyasında, ürün slug’ına göre tutulur. `demo/gallery.html` her türün fotoğrafını ve çizimini yan yana gösterir.
 - Üye verisi `reef_keeper_state` user meta'sında tutulur. Simülasyon sunucuda çalışır, coin ve cooldown'lar sunucuda doğrulanır.
 - E-postalar saatlik WP-Cron ile gider. Her üyeye günde en fazla 1 e-posta gönderilir ve her e-postada abonelikten çıkma linki vardır. Sitede trafik azsa WP-Cron gecikebilir. Gerçek bir sunucu cron'u kurmak önerilir (`wp cron event run --due-now`).
 - Oyun metinleri `assets/i18n.js` dosyasında, e-posta metinleri `includes/class-mailer.php` dosyasında.
